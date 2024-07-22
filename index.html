@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="leonardoasantos1">
+    <meta name="description" content="Descubra bandeiras dos países!">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="assets/img/Icone-global.png" type="image/png">
+    <title>Descubra Bandeiras</title>
+</head>
+<body>
+    <main id="container">
+        <h1 class="titlle">Descubra Bandeiras</h1>
+        <label for="pais">Digite o nome de um país:</label>
+        <input type="text" id="pais">
+        <button onclick="buscarPais()" class="botao">Descobrir</button>
+        <span id="erro"></span>
+        <img id="bandeira" width="300">
+        <button class="outroPais" id="outroPais" onclick="esconderBandeira()">Descobrir outra Bandeira</button>
+        <section class="icons">
+            <a href="https://www.linkedin.com/in/leonardo-alvess/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/leonardoasantos1" target="_blank"><i class="fab fa-github"></i></a>
+        </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

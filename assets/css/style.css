@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-start: #0081a7;
+    --color-end: #00afb9;
+    --background-gradient: linear-gradient(135deg, var(--color-start), var(--color-end));
+}
+
+body{
+    background: var(--background-gradient);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+    background-color: #293442;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    color: #ddd;
+}
+
+label{
+    font-size: 18px;
+}
+
+.botao{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    background: var(--background-gradient);
+    color: #293442;
+    cursor: pointer;
+}
+
+#pais{
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.outroPais{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #171e26;
+    font-weight: bold;
+    font-size: 18px;
+    background: #293442;
+    color: #ddd;
+    cursor: pointer;
+    display: none;
+}
+
+#erro{
+    font-size: 18px;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons a{
+    color: #ddd;
+    padding: 0px 5px;
+    font-size: 25px;
+}
